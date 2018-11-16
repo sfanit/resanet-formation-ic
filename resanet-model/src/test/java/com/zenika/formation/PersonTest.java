@@ -24,4 +24,14 @@ public class PersonTest {
 		Assert.assertEquals("Zenika", p.getName());
 		Assert.assertEquals("Zenika first name", p.getFirstName());
 	}
+
+@Test
+	public void test3() {
+		Person p = new Person();
+		p.setName("Zenika");
+		p.setFirstName("Zenika first name");
+
+		Assert.assertEquals("Zenika", p.getName());
+		Assert.assertEquals("Zenika first name", p.getFirstName());
+	}
 }
